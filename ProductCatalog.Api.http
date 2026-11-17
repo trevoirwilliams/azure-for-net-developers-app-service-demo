@@ -1,0 +1,14 @@
+@host = http://localhost:5080
+
+GET {{host}}/api/products
+Accept: application/json
+
+###
+
+GET {{host}}/api/info
+Accept: application/json
+
+###
+
+GET {{host}}/health
+Accept: application/json

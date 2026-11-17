@@ -1,0 +1,8 @@
+namespace ProductCatalog.Api.Models;
+
+public sealed record Product(
+    int Id,
+    string Name,
+    string Category,
+    decimal Price,
+    bool IsAvailable);

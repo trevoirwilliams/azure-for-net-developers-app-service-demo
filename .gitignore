@@ -1,0 +1,23 @@
+# Build output
+**/bin/
+**/obj/
+publish/
+artifacts/
+*.zip
+
+# IDE and user files
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Publishing credentials
+**/PublishProfiles/
+*.pubxml
+*.publishsettings
+
+# Local overrides and credentials
+.env
+.env.*
+appsettings.Local.json
